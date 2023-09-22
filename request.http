@@ -1,0 +1,11 @@
+POST http://localhost:4044/users
+content-type: application/json
+
+{
+    "name": "teste",
+    "email": "teste@teste.com"
+}
+
+###
+
+GET http://localhost:4044/users
